@@ -181,6 +181,28 @@ h1 a {
     text-align: center
 }
 
+.mid_content_info h3 {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    height: 28px;
+    margin-bottom: 15px;
+    width: 215%;
+    padding: 12px 0 0 0px;
+    text-align: center
+}
+
+.mid_content_info h5 {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    height: 28px;
+    margin-bottom: 15px;
+    width: 460%;
+    padding: 12px 0 0 0px;
+    text-align: center
+}
+
 .mid_content_info p {
     color: #363636;
     line-height: 20px;
@@ -205,6 +227,7 @@ h1 a {
 
 #clean {
     background: #C0C0C0; 
+
     /*url(../images/pen_icon.png) no-repeat left;*/
 }
 
@@ -787,7 +810,7 @@ http://coding.smashingmagazine.com/2012/04/25/pure-css3-cycling-slideshow/
     padding-right: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
-    width: 600px;
+    width: 550px;
     float: right;
     position: inherit;
     margin-top:30px;
@@ -867,7 +890,7 @@ http://coding.smashingmagazine.com/2012/04/25/pure-css3-cycling-slideshow/
 }
 
 textarea {
-    width: 100%;
+    width: 80%;
     height: 4em;
     line-height: 1.2em;
 }
@@ -880,6 +903,7 @@ input:focus, textarea:focus {
 #button-blue{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     float:left;
+    text-align: center;
     width: 100%;
     border: #4F2F4F solid 4px;
     cursor:pointer;

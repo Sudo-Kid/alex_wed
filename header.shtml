@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Alex Tavano">
+	<!--#if expr='"$Document_Name" = "index.shtml"' -->
+		<title>Tavano Wedding</title>
+	<!--#elif expr='"$Document_Name" = "venue.shtml"' -->
+		<title>Venue</title>
+	<!--#elif expr='"$Document_Name" = "accommodations.shtml"' -->
+		<title>Accommodations</title>
+	<!--#elif expr='"$Document_Name" = "contactus.shtml"' -->
+		<title>Contact Us</title>
+	<!--#endif -->
+	<link rel="icon" type="image/ico" href="favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+    <!-- Close Content CSS -->
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="res/css/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <!-- Close Slider CSS -->
+</head>
+
+<body>
+    <header id="header">
+        <section class="container">
+            <nav id="main_menu">
+				<ul>
+					<!--#if expr='"$Document_Name" = "index.shtml"' -->
+				    	<li class="first_list"><a href="index.shtml" class="main_menu_first main_current">Home</a></li>
+				    	<li class="first_list"><a href="venue.shtml" class="main_menu_first">Venue</a></li>
+				    	<li class="first_list"><a href="accommodations.shtml" class="main_menu_first">Accommodations</a></li>
+				    	<li class="first_list"><a href="contactus.shtml" class="main_menu_first">contact us</a></li>
+					<!--#elif expr='"$Document_Name" = "venue.shtml"' -->
+				    	<li class="first_list"><a href="index.shtml" class="main_menu_first">Home</a></li>
+				    	<li class="first_list"><a href="venue.shtml" class="main_menu_first main_current">Venue</a></li>
+				    	<li class="first_list"><a href="accommodations.shtml" class="main_menu_first">Accommodations</a></li>
+				    	<li class="first_list"><a href="contactus.shtml" class="main_menu_first">contact us</a></li>
+					<!--#elif expr='"$Document_Name" = "accommodations.shtml"' -->
+				    	<li class="first_list"><a href="index.shtml" class="main_menu_first">Home</a></li>
+				    	<li class="first_list"><a href="venue.shtml" class="main_menu_first">Venue</a></li>
+				    	<li class="first_list"><a href="accommodations.shtml" class="main_menu_first main_current">Accommodations</a></li>
+				    	<li class="first_list"><a href="contactus.shtml" class="main_menu_first">contact us</a></li>
+				    <!--#elif expr='"$Document_Name" = "contactus.shtml"' -->
+				    	<li class="first_list"><a href="index.shtml" class="main_menu_first ">Home</a></li>
+				    	<li class="first_list"><a href="venue.shtml" class="main_menu_first ">Venue</a></li>
+				    	<li class="first_list"><a href="accommodations.shtml" class="main_menu_first">Accommodations</a></li>
+				    	<li class="first_list"><a href="contactus.shtml" class="main_menu_first main_current">contact us</a></li>
+				    <!--#endif -->
+				</ul>
+            </nav>
+            <!-- Close main_menu -->
+        </section>
+        <!-- Close .container -->
+    </header>
+    <!-- Close #header -->
+
+    <main id="main_content">
+        <section id="slideshow_area">
+            <div class="container">
+                <div id="slideshow_container">
+                    <div class="container">
+                        <div id="content-slider">
+                            <div id="slider">
+                                <div id="mask">
+                                    <ul>
+                                        <li id="first" class="firstanimation">
+                                            <figure>
+                                                <a href="#"><img src="images/banner1.jpg" alt="Banner1"/></a>
+                                            </figure>
+                                            <figcaption class="tooltip">
+                                                <h1>Holding Hands</h1>
+                                            </figcaption>
+                                        </li>
+
+                                        <li id="second" class="secondanimation">
+                                            <figure>
+                                                <a href="#"><img src="images/banner2.jpg" alt="Banner2"/></a>
+                                            </figure>
+                                            <figcaption class="tooltip">
+                                                <h1>Hold My Heart</h1>
+                                            </figcaption>
+                                        </li>
+
+                                        <li id="third" class="thirdanimation">
+                                            <figure>
+                                                <a href="#"><img src="images/banner3.png" alt="Banner3"/></a>
+                                            </figure>
+                                            <figcaption class="tooltip">
+                                                <h1>Together Forever</h1>
+                                            </figcaption>
+                                        </li>
+
+                                        <li id="fourth" class="fourthanimation">
+                                            <figure>
+                                                <a href="#"><img src="images/banner4.jpg" alt="Banner4"/></a>
+                                            </figure>
+                                            <figcaption class="tooltip">
+                                                <h1>Perfect Date</h1>
+                                            </figcaption>
+                                        </li>
+
+                                        <li id="fifth" class="fifthanimation">
+                                            <figure>
+                                                <a href="#"><img src="images/banner5.jpg" alt="Banner5"/></a>
+                                            </figure>
+                                            <figcaption class="tooltip">
+                                                <h1>In Perfect Harmony</h1>
+                                            </figcaption>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Close .mask -->
+                            <div class="progress-bar">
+                            </div>
+                            <!-- Close .slider -->
+                        </div>
+                        <!-- Close .content-slider -->
+                    </div>
+                    <!-- Close .container -->
+                </div>
+                <!-- Close #slideshow_container -->
+            </div>
+            <!-- Close .container -->
+        </section>
+        <!-- Close #slideshow_area -->
