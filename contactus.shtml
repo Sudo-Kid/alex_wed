@@ -1,5 +1,4 @@
 <!--#include virtual="/tavanowedding/header.shtml"-->
-
 	<div id="mid_content">
 		<div class="container">
 			<div class="mid_content_info">
@@ -16,6 +15,7 @@
 					<address>
 			</div>
 			<!-- end mid_content_info -->
+
 			<div id="form-main">
 				<div id="form-div">
 					<form class="form" id="form1" method="post" action="sent.php">
@@ -37,12 +37,14 @@
 						<div class="ease"></div>
 						</div>
 					</form>
-				</div><!-- end form-div -->
-			</div><!-- end form-main -->
-		</div><!-- END .container -->
+				</div>
+				<!-- end form-div -->
+			</div>
+			<!-- end form-main -->
+		</div>
+		<!-- END .container -->
 	</div>
 	<!-- END #mid_content -->
 </div>
 <!-- END #main_content -->
-
 <!--#include virtual="/tavanowedding/footer.shtml"-->

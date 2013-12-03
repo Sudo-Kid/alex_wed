@@ -1,5 +1,4 @@
 <!--#include virtual="/tavanowedding/header.shtml"-->
-
     <div id="mid_content">
         <div class="container">
             <div class="mid_content_info mid_content_space">
@@ -51,5 +50,4 @@
     <!-- END #mid_content -->
 </div>
 <!-- END #main_content -->
-
 <!--#include virtual="/tavanowedding/footer.shtml"-->

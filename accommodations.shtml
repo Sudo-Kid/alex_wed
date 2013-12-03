@@ -1,5 +1,4 @@
 <!--#include virtual="/tavanowedding/header.shtml"-->
-
     <div id="mid_content">
         <div class="container">
             <div class="mid_content_info mid_content_space">
@@ -68,14 +67,11 @@
                         <a href="https://maps.google.ca/maps?saddr=8255+166+St,+Surrey,+BC+V4N+5R8&daddr=Unknown+road&hl=en&ll=49.14511,-122.777109&spn=0.048285,0.077162&sll=49.14452,-122.797387&sspn=0.012071,0.01929&geocode=FdQA7gIdEs2u-CmnXU_tvtCFVDH4PjijpCFsPA%3BFcTk7QIdJDau-A&mra=dme&mrsp=1&sz=16&t=m&z=14">Google Maps Directions</a></li>
                         </ul>
                 </address>
-            
             </div>            
-
         </div> 
         <!-- END .container -->
     </div> 
     <!-- END #mid_content -->
 </div> 
-<!-- END #main_content -->
-        
+<!-- END #main_content -->     
 <!--#include virtual="/tavanowedding/footer.shtml"-->
