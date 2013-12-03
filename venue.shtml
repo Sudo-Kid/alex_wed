@@ -24,7 +24,6 @@
                         <li>The Ceremony will begin at 3:00PM. Once the ceremony is over, the room will be cleared to prepare for the reception. All guest's must wait outside for the room to be prepared. The reception will be from 5:00PM until 12:00PM</li>
                     </ul>
                 </address>
-
             </div>
 
             <div class="mid_content_info mid_content_space">
@@ -50,7 +49,7 @@
         <!-- END .container -->
     </div>
     <!-- END #mid_content -->
-</main>
+</div>
 <!-- END #main_content -->
 
 <!--#include virtual="/tavanowedding/footer.shtml"-->

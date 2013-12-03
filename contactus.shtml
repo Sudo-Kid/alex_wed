@@ -1,55 +1,48 @@
 <!--#include virtual="/tavanowedding/header.shtml"-->
 
-		<div id="mid_content">
-			
-			<div class="container">
-				<div class="mid_content_info">
-						
-					<h2 id="ready">Contact Information</h2>
-					<p> Our Address:
-						</br>
-						Unit 209 - 20062 Fraser Hwy.
-						</br>
-						British Columbia, Canada
-						</br>
-						V3A 0E6
-						</br>
-						Phone: 1-(780) 722-6523
-						</br></br>
-						You can also contact us using the form located to the left which will send an email directly to us.                                         
-						<br>                        
+	<div id="mid_content">
+		<div class="container">
+			<div class="mid_content_info">
+				<h2 id="ready">Contact Information</h2>
+				    <address>
+				    	<ul>
+						    <li>Our Address:<br></li>
+							<li>Unit 209 - 20062 Fraser Hwy.<br></li>
+							<li>British Columbia, Canada<br></li>
+							<li>V3A 0E6<br></li>
+							<li>Phone: 1-(780) 722-6523<br><br></li>
+							<li>You can also contact us by using the form located to the right which will send an email directly to us.</li>
+						</ul>
+					<address>
+			</div>
+			<!-- end mid_content_info -->
+			<div id="form-main">
+				<div id="form-div">
+					<form class="form" id="form1" method="post" action="sent.php">
+					
+						<p class="name">
+						<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" name="name" placeholder="Name" id="name" />
 						</p>
-				</div> <!-- end mid_content_info -->
-				<div id="form-main">
-						<div id="form-div">
-							<form class="form" id="form1" method="post" action="sent.php">
-							  
-								<p class="name">
-								<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" name="name" placeholder="Name" id="name" />
-								</p>
 
-								<p class="email">
-								<input name="email" type="text" class="validate[required,custom[email]] feedback-input" name="email" id="email" placeholder="Email" />
-								</p>
+						<p class="email">
+						<input name="email" type="text" class="validate[required,custom[email]] feedback-input" name="email" id="email" placeholder="Email" />
+						</p>
 
-								<p class="text">
-								<textarea name="text" class="validate[required,length[6,300]] feedback-input" name="comment" id="comment" placeholder="Comment"></textarea>
-								</p>
+						<p class="text">
+						<textarea name="text" class="validate[required,length[6,300]] feedback-input" name="comment" id="comment" placeholder="Comment"></textarea>
+						</p>
 
-
-								<div class="submit">
-								<input type="submit" value="Send" id="button-blue"/>
-								<div class="ease"></div>
-								</div>
-							</form>
-						</div><!-- end form-div -->
-					</div><!-- end form-main -->
-			</div><!-- END .container -->
-				
-		</div> 
-		<!-- END #mid_content -->
-	
-	</div> 
-	<!-- END #main_content -->
+						<div class="submit">
+						<input type="submit" value="Send" id="button-blue"/>
+						<div class="ease"></div>
+						</div>
+					</form>
+				</div><!-- end form-div -->
+			</div><!-- end form-main -->
+		</div><!-- END .container -->
+	</div>
+	<!-- END #mid_content -->
+</div>
+<!-- END #main_content -->
 
 <!--#include virtual="/tavanowedding/footer.shtml"-->
