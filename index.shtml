@@ -11,8 +11,8 @@
                 <address>
                     <ul>
                         <li>Eagle Quest Golf Course<br></li>
-                        <li>7778 152nd St,</li>
-                        <li>Surrey, BC V3S 3M4</li>
+                        <li>7778 152nd St,<br></li>
+                        <li>Surrey, BC V3S 3M4<br></li>
                         <li>Phone: 1-(604) 597-4653<br></li>
                         <li><a href="venue.shtml">Read More</a></li>
                     </ul>
@@ -45,9 +45,9 @@
                     <il>
                     </figure><a href="http://www.sandmanhotels.ca/hotels/surrey-guildford/"> <img src="images/sandmanhotel.png" alt="Sandman Hotel Suites" width="200"></a></figure>
                     </il>
-                    <il>Sandman Suites Surrey-Guildford</il>
-                    <il>10608 151A St</il>
-                    <il>Surrey, BC V3R 8K7</il>
+                    <il>Sandman Suites Surrey-Guildford<br></il>
+                    <il>10608 151A St<br></il>
+                    <il>Surrey, BC V3R 8K7<br></il>
                     <il>1-(604) 582-7263<br></il>
                     <il><a href="accommodations.shtml">Read More</a></il>
                 </ul>
