@@ -2,6 +2,12 @@
 
 body {
     font-family: Arial, sans-serif;
+    color: black;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    color: white;
 }
 
 .container, #latest_works, #bottom_content, #download {
