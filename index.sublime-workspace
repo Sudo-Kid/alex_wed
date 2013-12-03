@@ -1,0 +1,285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"backgro",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/alex.tavano/Desktop/GitHub/alex_wed/index.shtml",
+		"/C/Users/alex.tavano/Desktop/GitHub/alex_wed/contactus.shtml",
+		"/C/Users/alex.tavano/Desktop/GitHub/alex_wed/favicon.ico",
+		"/C/Users/alex.tavano/Desktop/GitHub/alex_wed/footer.shtml",
+		"/C/Users/alex.tavano/Desktop/GitHub/alex_wed/header.shtml",
+		"/C/Users/alex.tavano/Desktop/GitHub/alex_wed/README.md",
+		"/C/Users/alex.tavano/Desktop/GitHub/alex_wed/sent.php",
+		"/C/Users/alex.tavano/Desktop/GitHub/alex_wed/venue.shtml",
+		"/C/Users/alex.tavano/Desktop/GitHub/alex_wed/accommodations.shtml",
+		"/C/Users/alex.tavano/Desktop/HTML5 Wedding Site/footer.shtml",
+		"/C/Users/alex.tavano/Desktop/HTML5 Wedding Site/header.shtml",
+		"/C/Users/alex.tavano/Desktop/HTML5 Wedding Site/index.shtml",
+		"/C/Users/alex.tavano/Desktop/HTML5 Wedding Site/contactus.shtml",
+		"/C/Users/alex.tavano/Desktop/HTML5 Wedding Site/accommodations.shtml",
+		"/C/Users/alex.tavano/Desktop/HTML5 Wedding Site/venue.shtml",
+		"/C/Users/alex.tavano/Desktop/HTML5 Wedding Site/contactus.html",
+		"/C/Users/alex.tavano/Desktop/HTML5 Wedding Site/accommodations.html",
+		"/C/Users/alex.tavano/Desktop/HTML5 Wedding Site/venue.html",
+		"/C/Users/alex.tavano/Desktop/HTML5 Wedding Site/index.html",
+		"/C/Users/alex.tavano/Downloads/my_work/sent.php",
+		"/C/Users/alex.tavano/Downloads/my_work/contactus.html",
+		"/U/Documents/Backups/Wedding Website/my_work/index.html",
+		"/U/Documents/Backups/Wedding Website/my_work/stylesheets/main.css",
+		"/U/Documents/Backups/Wedding Website/my_work/contactus.html",
+		"/U/Documents/Backups/Wedding Website/my_work/accommodations.html",
+		"/U/Documents/Backups/Wedding Website/my_work/venue.html",
+		"/C/Users/alex.tavano/Desktop/my_work/index.html",
+		"/U/Documents/Backups/Wedding Website/BackUp Before Edits/bdoo/accommodations.html",
+		"/U/Documents/Backups/Wedding Website/my_work/Contact Form/csspage.txt",
+		"/C/Users/alex.tavano/Desktop/bdoo/contactus.html",
+		"/C/Users/alex.tavano/Desktop/bdoo/accommodations.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/stylesheets/main.css",
+		"/C/Users/alex.tavano/Desktop/bdoo/venue.html",
+		"/C/Users/alex.tavano/Desktop/bdoo/index.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/contactus.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/accommodations.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/venue.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/index.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/accomodations.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/res/css/style.css",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/TEst/CSS3-Slider/CSS3-Slider/index.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/TEst/index.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/TEst/main.css",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/juizy-slideshow-v1.1.1-2013-11-15/index.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/juizy-slideshow-v1.1.1-2013-11-15/styles.css",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/bislite/bislite/index.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/contact.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/portfolio.html",
+		"/U/Documents/Backups/WebSite/Wedding Website Ideas/Wedding Site/Website/stylesheets/reset.css",
+		"/C/Users/alex.tavano/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tavano Wedding",
+			"h1",
+			"shtml",
+			"-->\n",
+			"shtml",
+			"\"-->",
+			"main_current",
+			"DOCUMENT_URI",
+			"        \n",
+			"mid_content_space",
+			"mid_content_info",
+			"h5",
+			"h2",
+			"submit",
+			"send",
+			"container",
+			"mid_content",
+			"mid_content_space",
+			"                      \nmain_content",
+			"content",
+			"main",
+			"main_content",
+			"container",
+			"mid_content_space",
+			"sun",
+			"h2",
+			"banner",
+			"banner1",
+			"slideshow_pagination",
+			"whitebutton",
+			"mid_content_info",
+			"mid_content_space",
+			"mid_content_info mid_content_space",
+			"FFF",
+			"42, 172, 200)",
+			"#754C78rgb(42, 172, 200)",
+			"#754C78",
+			"#8F5E99",
+			"#8B668B",
+			"#6ec2ca",
+			"border",
+			"background",
+			"\"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", \"Sat\"",
+			"Mon\nTue\nWed\nThu\nFri\nSat",
+			"\"Mon\" ,\"Tue\" ,\"Wed\" ,\"Thu\" ,\"Fri\" ,\"Sat\"",
+			"\"",
+			"Mon\nTue\nWed\nThu\nFri\nSat",
+			"Mon",
+			"Mon\nTue\nWed\nThu\nFri\nSat",
+			"Mon\nTue\nWed\nThu\nFri\n",
+			"Sat",
+			"Mon",
+			"Mon\nTue\nWed\nThu\nFri\nSat\nSun",
+			"Mon",
+			"Mon\nTue\nWed\nThu\nFri\nSat\nSun",
+			"Mon",
+			"My name is Alex",
+			"alex",
+			"My name is alex",
+			"as",
+			"\n",
+			"asd",
+			"to",
+			"To",
+			"to",
+			"Tab",
+			"By"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
