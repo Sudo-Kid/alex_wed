@@ -10,6 +10,11 @@ a {
     color: white;
 }
 
+address {
+    font-family: Arial, sans-serif;
+    color: #363636;
+}
+
 .container, #latest_works, #bottom_content, #download {
     margin: auto;
     width: 1000px;
@@ -729,7 +734,7 @@ a#pagination_next:hover, a#pagination_end:hover {
 }
 
 #footer_explore li a:hover, #footer_browse li a:hover {
-    color: #2aacc8;
+    color: #C0C0C0;
 }
 
 #footer_connect {
