@@ -57,7 +57,7 @@
     </header>
     <!-- Close #header -->
 
-    <main id="main_content">
+    <div id="main_content">
         <section id="slideshow_area">
             <div class="container">
                 <div id="slideshow_container">
