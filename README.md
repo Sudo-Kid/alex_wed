@@ -24,5 +24,3 @@ so its even, but i cannot find where i changed that as all of them changed.
 
 9. Once the contact form is working, make sure the CSS color slider, and the 
 pictures for Name, Email, and message appear. As well as make sure that the text is purple inside the box much like in Chrome and FireFox.
-
-10.
