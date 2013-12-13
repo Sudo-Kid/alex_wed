@@ -2,6 +2,17 @@
 
 body {
     font-family: Arial, sans-serif;
+    color: black;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+address {
+    font-family: Arial, sans-serif;
+    color: #363636;
 }
 
 .container, #latest_works, #bottom_content, #download {
@@ -17,11 +28,9 @@ body {
     color: #C0C0C0;
     font-size: 15px;
 }
-
 /* ----- General Styling ----- */
 
 /* ----- Header Styling ----- */
-
 #header {
    /* background: #e8ebf1; */
     background: #816687;
@@ -40,11 +49,9 @@ h1 a {
     text-indent: -9999px;
     width: 148px;
 }
-
 /* ----- Header Styling ----- */
 
 /* ----- Main Navigation Styling ----- */
-
 #main_menu {
     float: right;
     margin-top: 54px;
@@ -122,11 +129,9 @@ h1 a {
 .main_current {
     border-top: 5px solid #C0C0C0;
 }
-
 /* ----- Main Navigation Styling ----- */
 
 /* ----- Slideshow Styling ----- */
-
 #slideshow_area {
     background: #4F2F4F url(../images/banner_shadow.png) repeat-x;
     border-top: 1px solid #C0C0C0;
@@ -159,11 +164,9 @@ h1 a {
 #slideshow_pagination a.current {
     background: url(../images/white_button.png) no-repeat;
 }
-
 /* ----- Slideshow Styling ----- */
 
 /* ----- Home Mid Content Styling ----- */
-
 .mid_content_info {
     float: left;
     font-size: 13px;
@@ -279,182 +282,7 @@ h1 a {
     margin: 30px 15px;
 }
 
-/* ----- Carousel and Portfolio Styling ----- */
-
-#carousel_wrapper li, #portfolio_list li {
-    height: 160px;
-    position: relative;
-    width: 220px;
-}
-
-#carousel_wrapper li a img, #portfolio_list li a img {
-    bottom: 0;
-    position: absolute;
-    visibility: hidden;
-}
-
-#carousel_wrapper li:hover a img, #portfolio_list li:hover a img {
-    visibility: visible;
-}
-
-#work01 {
-    background: #816687;
-}
-
-#work02 {
-    background: url(../images/latest_work02.jpg) no-repeat;
-}
-
-#work03 {
-    background: url(../images/latest_work03.jpg) no-repeat;
-}
-
-#work04 {
-    background: url(../images/latest_work04.jpg) no-repeat;
-}
-
-#work05 {
-    background: url(../images/latest_work05.jpg) no-repeat;
-}
-
-#work06 {
-    background: url(../images/latest_work06.jpg) no-repeat;
-}
-
-#work07 {
-    background: url(../images/latest_work07.jpg) no-repeat;
-}
-
-#work08 {
-    background: url(../images/latest_work08.jpg) no-repeat;
-}
-
-#work09 {
-    background: url(../images/latest_work09.jpg) no-repeat;
-}
-
-#work10 {
-    background: url(../images/latest_work10.jpg) no-repeat;
-}
-
-#work11 {
-    background: url(../images/latest_work11.jpg) no-repeat;
-}
-
-#work12 {
-    background: url(../images/latest_work12.jpg) no-repeat;
-}
-
-#work13 {
-    background: url(../images/latest_work13.jpg) no-repeat;
-}
-
-#work14 {
-    background: url(../images/latest_work14.jpg) no-repeat;
-}
-
-#work15 {
-    background: url(../images/latest_work15.jpg) no-repeat;
-}
-
-#work16 {
-    background: url(../images/latest_work16.jpg) no-repeat;
-}
-
-/* ----- Carousel and Portfolio Styling ----- */
-
-
-#testimonials {
-    background: #816687;
-    clear: left;
-    float: left;
-    width: 430px;
-}
-
-#testimonials h3 {
-    background: #816687;
-    font-size: 15px;
-    font-weight: bold;
-    height: 18px;
-    margin: 19px 0 15px 0;
-    padding: 5px 0 0 38px;
-}
-
-#testimonials p {
-    color: #363636;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-.testimonial_name {
-    font-style: italic;
-    font-weight: bold;
-}
-
-#clients {
-    background: #816687;
-    float: right;
-    margin-bottom: 40px;
-}
-
-#clients h3 {
-    background: url(../images/people_icon.png) no-repeat left;
-    font-size: 15px;
-    font-weight: bold;
-    height: 16px;
-    margin: 19px 0 15px 0;
-    padding: 4px 0 0 38px;
-}
-
-#clients ul {
-    background: #816687;
-    height: 200px;
-    width: 480px;
-}
-
-#clients img {
-    float: left;
-    margin: 1px;
-}
-
-#download {
-    background: #816687;
-    border: 1px solid #C0C0C0;
-    clear: both;
-    height: 78px;
-    padding: 30px 30px;
-    width: 940px;
-}
-
-#download p {
-    color: #363636;
-    float: left;
-    font-size: 16px;
-    line-height: 26px;
-    width: 608px;
-}
-
-#download a {
-    background: url(../images/download_button.png) no-repeat;
-    display: block;
-    color: #0d0707;
-    font-size: 18px;
-    font-weight: bold;
-    float: right;
-    height: 42px;
-    margin: 8px 8px 0 0;
-    padding: 22px 0 0 72px;
-    width: 172px;
-}
-
-#download a:hover {
-    color: #fff;
-}
-
-/* ----- Home Mid Content Styling ----- */
-
 /* ----- Portfolio Content Styling ----- */
-
 #portfolio_area {
     background: url(../images/banner_shadow.png) repeat-x;
     border-top: 1px solid #d9d9d9;
@@ -554,11 +382,9 @@ a#pagination_next:hover, a#pagination_end:hover {
 .pagination_current {
     background: #816687;
 }
-
 /* ----- Portfolio Content Styling ----- */
 
 /* ----- Contact Content Styling ----- */
-
 #contact_area {
     background: #816687;
     border-top: 1px solid #d9d9d9;
@@ -626,11 +452,9 @@ a#pagination_next:hover, a#pagination_end:hover {
 #address p {
     color: #363636;
 }
-
 /* ----- Contact Content Styling ----- */
 
 /* ----- Form Styling ----- */
-
 #contact_form {
     width: 480px;
 }
@@ -672,11 +496,9 @@ a#pagination_next:hover, a#pagination_end:hover {
 #contact_form input[type="submit"]:hover {
     color: #fff;
 }
-
 /* ----- Form Styling ----- */
 
 /* ----- Footer Styling ----- */
-
 #footer {
     background: #816687;
     border-top: 1px solid #d9d9d9;
@@ -723,7 +545,7 @@ a#pagination_next:hover, a#pagination_end:hover {
 }
 
 #footer_explore li a:hover, #footer_browse li a:hover {
-    color: #2aacc8;
+    color: #C0C0C0;
 }
 
 #footer_connect {
@@ -748,24 +570,8 @@ a#pagination_next:hover, a#pagination_end:hover {
     background: url(../images/facebook_icon.png) no-repeat;
 }
 
-#dribbble {
-    background: url(../images/dribbble_icon.png) no-repeat;
-}
-
 #pinterest {
     background: url(../images/pinterest_icon.png) no-repeat;
-}
-
-#linkedin {
-    background: url(../images/linkedin_icon.png) no-repeat;
-}
-
-#skype {
-    background: url(../images/skype_icon.png) no-repeat;
-}
-
-#sharethis {
-    background: url(../images/sharethis_icon.png) no-repeat;
 }
 
 p#copyright {
@@ -782,18 +588,9 @@ p#copyright {
     text-indent: -9999px;
     width: 148px;
 }
-
 /* ----- Footer Styling ----- */
 
-/* ----- Website to make your own customer css Slider.
-http://coding.smashingmagazine.com/2012/04/25/pure-css3-cycling-slideshow/
- ----- */
-
-
-
-
 /* ----- Contact Us Form----- */
-
 #feedback-page{
     text-align:center;
 }
