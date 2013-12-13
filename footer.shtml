@@ -1,6 +1,6 @@
 
-        <footer id="footer">
-        <section class="container">
+    <footer id="footer">
+        <div class="container">
             <article id="footer_about" class="footer_info">
                 <h4>wedding information</h4>
                 <p>The wedding will be located at Eagle Quest golf course in Surrey, British Columbia. The Ceremony will start at 3:00PM, followed by the Reception at 5:00PM. Directions to the golf course will be located on the Venue page.
@@ -44,7 +44,7 @@
                     </li>
                 </ul>
             </nav>
-        </section>
+        </div>
         <!-- Close .container -->
     </footer>
 </body>
