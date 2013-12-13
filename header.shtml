@@ -17,8 +17,24 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
     <!-- Close Content CSS -->
-    
-    <link rel="stylesheet" type="text/css" media="screen" href="res/css/style.css"/>
+    <style>
+    /* Prevents slides from flashing */
+        #slides {
+            display:none;
+        }
+    </style>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jquery.slides.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#slides").slidesjs({
+                width: 940,
+                height: 528
+            });
+        });
+    </script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <!-- Close Slider CSS -->
 </head>
@@ -58,71 +74,13 @@
     <!-- Close #header -->
 
     <div id="main_content">
-        <section id="slideshow_area">
-            <div class="container">
-                <div id="slideshow_container">
-                    <div class="container">
-                        <div id="content-slider">
-                            <div id="slider">
-                                <div id="mask">
-                                    <ul>
-                                        <li id="first" class="firstanimation">
-                                            <figure>
-                                                <a href="#"><img src="images/banner1.jpg" alt="Banner1"/></a>
-                                            </figure>
-                                            <figcaption class="tooltip">
-                                                <h1>Holding Hands</h1>
-                                            </figcaption>
-                                        </li>
-
-                                        <li id="second" class="secondanimation">
-                                            <figure>
-                                                <a href="#"><img src="images/banner2.jpg" alt="Banner2"/></a>
-                                            </figure>
-                                            <figcaption class="tooltip">
-                                                <h1>Hold My Heart</h1>
-                                            </figcaption>
-                                        </li>
-
-                                        <li id="third" class="thirdanimation">
-                                            <figure>
-                                                <a href="#"><img src="images/banner3.png" alt="Banner3"/></a>
-                                            </figure>
-                                            <figcaption class="tooltip">
-                                                <h1>Together Forever</h1>
-                                            </figcaption>
-                                        </li>
-
-                                        <li id="fourth" class="fourthanimation">
-                                            <figure>
-                                                <a href="#"><img src="images/banner4.jpg" alt="Banner4"/></a>
-                                            </figure>
-                                            <figcaption class="tooltip">
-                                                <h1>Perfect Date</h1>
-                                            </figcaption>
-                                        </li>
-
-                                        <li id="fifth" class="fifthanimation">
-                                            <figure>
-                                                <a href="#"><img src="images/banner5.jpg" alt="Banner5"/></a>
-                                            </figure>
-                                            <figcaption class="tooltip">
-                                                <h1>In Perfect Harmony</h1>
-                                            </figcaption>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- Close .mask -->
-                            <div class="progress-bar">
-                            </div>
-                            <!-- Close .slider -->
-                        </div>
-                        <!-- Close .content-slider -->
-                    </div>
-                    <!-- Close .container -->
-                </div>
-                <!-- Close #slideshow_container -->
-            </div>
-            <!-- Close .container -->
-        </section>
+        <div id="slides">
+            <figure>
+                <img src="images/banner1.jpg" alt="Banner1"/>
+                <img src="images/banner2.jpg" alt="Banner2"/>
+                <img src="images/banner3.png" alt="Banner3"/>
+                <img src="images/banner4.jpg" alt="Banner4"/>
+                <img src="images/banner5.jpg" alt="Banner5"/>
+            </figure>
+        </div>
         <!-- Close #slideshow_area -->
