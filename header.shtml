@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
     <!-- Close Content CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="res/css/style.css"/>
     <style>
     /* Prevents slides from flashing */
         #slides {
