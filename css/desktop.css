@@ -1,0 +1,18 @@
+body {
+
+}
+
+header {
+
+}
+
+#main_menu {
+	text-align: right; 
+}
+
+
+.slider-wrapper { 
+	width: 60%; 
+	margin: 100px auto;
+	border: 5px solid white;
+}
