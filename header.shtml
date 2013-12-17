@@ -21,25 +21,11 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <!-- Close Slider CSS -->
 
-    <style>
-    /* Prevents slides from flashing */
-        #slides {
-            display:none;
-        }
-    </style>
-
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="jquery.slides.min.js"></script>
-
-    <script>
-        $(function(){
-            $("#slides").slidesjs({
-                width: 940,
-                height: 528
-            });
-        });
-    </script>
-    <!-- Close JavaScript Slider CSS -->
+    <link rel="stylesheet" href="/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
 </head>
 
 <body>
@@ -80,15 +66,32 @@
         <div id="slideshow_area">
                 <div id="slideshow_container">
                     <div class="container">
-                            <div id="slider">
-                                    <figure>
-                                        <img src="images/banner1.jpg" alt="Banner1"/>
-                                        <img src="images/banner2.jpg" alt="Banner2"/>
-                                        <img src="images/banner3.png" alt="Banner3"/>
-                                        <img src="images/banner4.jpg" alt="Banner4"/>
-                                        <img src="images/banner5.jpg" alt="Banner5"/>
-                                    </figure>
+                            <div class="slider-wrapper theme-default">
+                                <div id="slider" class="nivoSlider">
+                                    <img src="/images/banner1.jpg"
+                                        data-thumb="/images/banner1.jpg" 
+                                        alt="" 
+                                        data-transition="slideInLeft">
+                                    
+                                    <img src="/images/banner2.jpg"
+                                        data-thumb="/images/banner2.jpg" 
+                                        alt="" 
+                                        title="This is an example of a caption" 
+                                        data-transition="slideInLeft">
+
+                                    <img src="/images/banner3.jpg"
+                                        data-thumb="/images/banner3.jpg" 
+                                        alt="" 
+                                        data-transition="slideInLeft">
+
+                                    <img src="/images/banner4.jpg"
+                                        data-thumb="/images/banner4.jpg" 
+                                        alt="" 
+                                        title="#htmlcaption" 
+                                        data-transition="slideInLeft">
+
                                 </div>
+                            </div>
                             <!-- Close .slider -->
                             </div>
                         <!-- Close .content-slider -->
