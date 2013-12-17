@@ -1,18 +1,98 @@
 body {
-
+	background-image: url('/images/body_background.png');
+	background-color: #F5F5F5;
 }
 
 header {
 
 }
 
+
+#main {
+	max-width: 970px;
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+}
+
+.horizontal_rule {
+	background-color: #B4B1B4;
+	min-height: 3px;
+	width: 100%;
+	position: absolute;
+	margin-right: 0 auto;
+	right: 0;
+}
+
+a {
+	
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+
+
+/**********************************
+		Nav Bar
+**********************************/
+
 #main_menu {
 	text-align: right; 
+	color: #4F2E4F;
+	background-color: #816687;
 }
 
+#main_meunu ul {
+	margin: 40px 0;
+}
+
+#main_menu li {
+	list-style: none;
+	display: inline-block;
+}
+
+#main_menu a {
+	text-decoration: none;
+	margin: 10px;
+	padding: 3px;
+	border-top: 3px solid #B2B2B2;
+}
+
+#main_menu a:visited {
+
+}
+
+#main_menu a:hover {
+	border-top: 3px solid #4F2F4F;
+}
+
+#main_menu a:active {
+
+}
+
+/**********************************
+		End Nav Bar
+**********************************/
+
+/**********************************
+		Slider
+**********************************/
 
 .slider-wrapper { 
-	width: 60%; 
+	width: 90%; 
 	margin: 100px auto;
-	border: 5px solid white;
 }
+
+/**********************************
+		End Slider
+**********************************/
