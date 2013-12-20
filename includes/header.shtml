@@ -64,26 +64,25 @@
 
     <div id="main_content">
         <div id="slideshow_area">
-                <div id="slideshow_container">
-                    <div class="container">
-                            <div class="slider-wrapper theme-default">
-                                <div id="slider" class="nivoSlider">
-                                    <img src="/images/banner1.jpg"
-                                        data-thumb="/images/banner1.jpg" 
-                                        alt="" 
-                                        data-transition="slideInLeft">
-                                    
-                                    <img src="/images/banner2.jpg"
-                                        data-thumb="/images/banner2.jpg" 
-                                        alt="" 
-                                        title="This is an example of a caption" 
-                                        data-transition="slideInLeft">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="/images/banner1.jpg"
+                        data-thumb="/images/banner1.jpg" 
+                        alt="" 
+                        data-transition="slideInLeft">
+                    
+                    <img src="/images/banner2.jpg"
+                        data-thumb="/images/banner2.jpg" 
+                        alt="" 
+                        title="This is an example of a caption" 
+                        data-transition="slideInLeft">
 
-                                    <img src="/images/banner3.jpg"
-                                        data-thumb="/images/banner3.jpg" 
-                                        alt="" 
-                                        data-transition="slideInLeft">
+                    <img src="/images/banner3.jpg"
+                        data-thumb="/images/banner3.jpg" 
+                        alt="" 
+                        data-transition="slideInLeft">
 
+<<<<<<< HEAD:includes/header.shtml
                                     <img src="/images/banner4.jpg"
                                         data-thumb="/images/banner4.jpg" 
                                         alt="" 
@@ -96,9 +95,19 @@
                         <!-- Close .content-slider -->
                         </div>
                     <!-- Close .container -->
+=======
+                    <img src="/images/banner4.jpg"
+                        data-thumb="/images/banner4.jpg" 
+                        alt="" 
+                        title="#htmlcaption" 
+                        data-transition="slideInLeft">
+>>>>>>> d795104a981b25107a2a73a7262fe0318d3e8d3a:header.shtml
                     </div>
-                <!-- Close #slideshow_container -->
                 </div>
-            <!-- Close .container -->
+                <!-- Close .slider -->
             </div>
-        <!-- Close #slideshow_area -->
+        <!-- Close .content-slider -->
+        </div>
+    <!-- Close .container -->
+    </div>
+    <!-- Close #slideshow_area -->
