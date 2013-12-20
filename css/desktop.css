@@ -1,8 +1,7 @@
-
-
 body {
 	background-color: #816687;
 	color: #47404B;
+	font-size: 13px;
 }
 
 header {
@@ -10,19 +9,20 @@ header {
 }
 
 a {
-
+	text-decoration: none;
+	color: #47404B;
 }
 
 a:visited {
-
+	color: #47404B;
 }
 
 a:hover {
-
+	color: #C0C0C0;
 }
 
 a:active {
-
+	color: #C0C0C0;
 }
 
 .main {
@@ -55,34 +55,41 @@ a:active {
 #main_menu {
 	text-align: right; 
 	color: #4F2E4F;
+	font-size: 1em;
+	font-weight: bold;
 }
 
 #main_meunu ul {
-	margin: 40px 0;
+	margin: 50px 0;
 }
 
 #main_menu li {
 	list-style: none;
 	display: inline-block;
+	padding: 30px 10px 30px 0;
 }
 
 #main_menu a {
 	text-decoration: none;
 	margin: 10px;
 	padding: 3px;
-	border-top: 3px solid #B2B2B2;
+	color: #4F2F4F;
 }
 
 #main_menu a:visited {
-
+	
 }
 
 #main_menu a:hover {
-	border-top: 3px solid #4F2F4F;
+	border-top: 5px solid #4F2F4F;
 }
 
 #main_menu a:active {
 
+}
+
+.current_page {
+	border-top: 5px solid #C0C0C0;
 }
 
 /**********************************
@@ -108,12 +115,13 @@ a:active {
 **********************************/
 
 .main_content {
-
+	
 }
 
 .main_content>article {
 	float: left;
 	width: 25%;
+	margin-top: -50px;
 }
 
 .main_content figure {
@@ -123,17 +131,26 @@ a:active {
 
 .main_content h1 {
 	background-color: #C0C0C0;
-	font-size: 1em;
+	color: black;
+	font-size: 1.1em;
+	font-weight: bold;
 	margin: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
 }
 
-.main_content li, .main_content ul{
+.main_content ul {
 	list-style: none;
+	padding: 0 20px 50px;
+}
+
+.main_content p {
+	padding: 0 20px;
+}
+
+.main_content li, {
 	margin: 0;
-	padding: 0;
 }
 
 /**********************************
