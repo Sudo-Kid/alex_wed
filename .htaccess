@@ -1,2 +1,1 @@
-Options +Includes
-DirectoryIndex index.shtml index.html index.htm
+DirectoryIndex index.html index.htm index.php index.shtml index.shtm
