@@ -10,7 +10,7 @@
         <title>Venue</title>
     <!--#elif expr='"$DOCUMENT_URI" = "/accommodations/index.shtml"' -->
         <title>Accommodations</title>
-    <!--#elif expr='"$DOCUMENT_URI" = "/contactus/index.shtml"' -->
+    <!--#elif expr='"$DOCUMENT_URI" = "/contactus/index.php"' -->
         <title>Contact Us</title>
     <!--#endif -->
     
@@ -51,7 +51,7 @@
                     <li class="first_list"><a href="/venue/">VENUE</a></li>
                     <li class="first_list"><a href="/accommodations/" class="current_page">ACCOMMODATIONS</a></li>
                     <li class="first_list"><a href="/contactus/">CONTACT US</a></li>
-                <!--#elif expr='"$DOCUMENT_URI" = "/contactus/index.shtml"' -->
+                <!--#elif expr='"$DOCUMENT_URI" = "/contactus/index.php"' -->
                     <li class="first_list"><a href="/">HOME</a></li>
                     <li class="first_list"><a href="/venue/">VENUE</a></li>
                     <li class="first_list"><a href="/accommodations/">ACCOMMODATIONS</a></li>
