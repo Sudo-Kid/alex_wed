@@ -56,7 +56,7 @@
                     <li class="first_list"><a href="/venue/">Venue</a></li>
                     <li class="first_list"><a href="/accommodations/">Accommodations</a></li>
                     <li class="first_list"><a href="/contactus/" class="current_page">contact us</a></li>
-<!--#endif -->
+                <!--#endif -->
             </ul>
         </nav>
     </header>
