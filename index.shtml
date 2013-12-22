@@ -1,68 +1,68 @@
 <!--#include virtual="/includes/header.shtml"-->
 
 <div class="main">
-	<section class="main_content">
-		
-		<article>
-			<header>
-				<h1>Venue Location</h1>
+    <section class="main_content">
+        
+        <article>
+            <header>
+                <h1>Venue</h1>
 
-				
-			</header>
-            <figure>
-                <a href="https://maps.google.ca/maps?gl=ca&daddr=7778+152nd+St,+Surrey,+BC+V3S+3M4&panel=1&f=d&fb=1&dirflg=d&geocode=0,49.144484,-122.799582&cid=0,0,11085724698191121885&hq=Eagle+quest&hnear=0x5485dc034d3fa75b:0xd28b4898abd598e0,Surrey,+BC"> 
-                	<img src="images/eaglequest.png" alt="Eage Quest Logo" width="200"> 
-                </a>
-            </figure>
+                
+            </header>
             <address>
-                <ul> 
+                <ul>
+                    <li>
+                        <figure>
+                            <a href="https://maps.google.ca/maps?gl=ca&daddr=7778+152nd+St,+Surrey,+BC+V3S+3M4&panel=1&f=d&fb=1&dirflg=d&geocode=0,49.144484,-122.799582&cid=0,0,11085724698191121885&hq=Eagle+quest&hnear=0x5485dc034d3fa75b:0xd28b4898abd598e0,Surrey,+BC"> <img src="images/eaglequest.png" alt="Eage Quest Logo" width="200"></a>
+                        </figure>
+                    </li>
                     <li>Eagle Quest Golf Course<br></li>
                     <li>7778 152nd St,<br></li>
                     <li>Surrey, BC V3S 3M4<br></li>
                     <li>Phone: 1-(604) 597-4653<br></li>
+                    <li><a href="venue.shtml">Read More</a></li>
                 </ul>
             </address>
-		</article>
+        </article>
 
-		<article>
-			<header>
-				<h1>Event Times</h1>	
-			</header>
+        <article>
+            <header>
+                <h1>Date and Times</h1>
+            </header>
+            <p>The Ceremony will begin at 3:00PM which will last for an hour. Once the ceremony is over, the room will be cleared to prepare for the reception. All guest's must wait outside for the room to be prepared. The reception will be from 5:00PM  until 12:00PM</p>
+        </article>
+
+        <article>
+            <header>
+                <h1>Registry Information</h1>
+            </header>
+                <p>The Bride and Groom have been purchasing household items, and receiving them as gifts for the last 5 years. They have already purchased everything they need for their home. At this time, there is no registry, and are accepting money to help pay for the honeymoon, and future investments</p>
+        </article>
+
+        <article>
+            <header>
+                <h1>Accomodations</h1>
+            </header>
             <address>
-                    <p>The Ceremony will begin at 3:00PM. Once the ceremony is over, the room will be cleared to prepare for the reception. All guest's must wait outside for the room to be prepared. The reception will be from 5:00PM until 12:00PM</p>
+                <ul>
+                    <il>
+                        <figure>
+                            <a href="http://www.sandmanhotels.ca/hotels/surrey-guildford/"> 
+                                <img src="images/sandmanhotel.png" 
+                                    alt="Sandman Hotel Suites" 
+                                    width="200">
+                            </a>
+                        </figure>
+                    </il>
+                    <il>Sandman Suites Surrey-Guildford<br></il>
+                    <il>10608 151A St<br></il>
+                    <il>Surrey, BC V3R 8K7<br></il>
+                    <il>1-(604) 582-7263<br></il>
+                    <il><a href="accommodations.shtml">Read More</a></il>
+                </ul>
             </address>
-		</article>
-
-		<article>
-			<header>
-				<h1>Registry Information</h1>
-			</header>
-			<p>The Bride and Groom have been purchasing household items, and receiving them as gifts for the last 5 years. They have already purchased everything they need for their home. At this time, 	there is no registry, and are accepting money to help pay for the honeymoon, and future investments</p>
-		</article>
-
-		<article class="google_map">
-			<h1>Directions</h1>
-			<div class="map">
-                <figure>
-                    <a href="https://maps.google.ca/maps?saddr=10608+151A+Street,+Surrey,+BC&daddr=Unknown+road&hl=en&ll=49.154401,-122.795906&spn=0.024138,0.038581&sll=49.14817,-122.799704&sspn=0.012071,0.01929&geocode=FeWn7gIdhjOu-CkDNVHQDdeFVDGcug3WXqvyHw%3BFcPk7QIdzzau-A&gl=ca&mra=dme&mrsp=1&sz=16&t=m&z=15"> 
-                    	<img src="images/googleMapsDirections.png" alt="Eage Quest Logo" width="200"> 
-                    </a>
-                </figure>
-            </div> <!-- End Map Div Tag -->
-
-            <div class="directions">
-                <address>
-                    <ul>
-                        <li>Head east on Lincoln Dr toward 152nd St.</li>
-                        <li>Turn Right onto 152 St.</li>
-                        <li>Drive for 6.8 Km</li>
-                        <li>Slight left on stay on 152 St.</li>
-                        <li>Destination will be on the Left</li>
-                    </ul>
-                </address>
-            </div> <!-- End Directions Div Tag -->
-		</article> <!-- End Google Map Article -->
-	</section>
+        </article>
+    </section>
 </div>
 
 <!--#include virtual="/includes/footer.shtml"-->
