@@ -241,12 +241,58 @@ a:active {
 		Form Field
 **********************************/
 
+/* ----- Form Styling ----- */
+#contact_form {
+    width: 480px;
+}
+        
+#contact_form li {
+    font-size: 14px;
+    padding: 2px 0px;
+}
+        
+#contact_form label {
+    display: block;
+    margin: 12px 0;
+}
+         
+#contact_form input {
+    height: 35px;
+}
+
+#contact_form input:focus, #contact_form textarea:focus {
+    border: 1px solid #2aacc8;
+}
+
+#contact_form input, #contact_form textarea {
+    border: 1px solid #b4bac5;
+}
+
+#contact_form input[type="submit"] {
+    background: url(../images/submit_button.png) no-repeat;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    height: 64px;
+    margin-top: 20px;
+    padding: 0 0 6px 30px;
+    width: 160px;
+}
+
+#contact_form input[type="submit"]:hover {
+    color: #fff;
+}
+/* ----- Form Styling ----- */
+
+/* ----- Contact Us Form----- */
 #feedback-page{
     text-align:center;
 }
 
 #form-main{
     width:40%;
+    float:right;
     padding-top:0px;
 }
 
@@ -256,13 +302,10 @@ a:active {
     padding-right: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
-    width: 610px;
-    float: left;
+    width: 600px;
+    float: right;
     position: inherit;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 0px;
-    margin-bottom: 50px;
+    margin: 20px -460px 50px 0;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
 }
