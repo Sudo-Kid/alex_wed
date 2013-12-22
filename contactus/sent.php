@@ -35,7 +35,7 @@
 		<article class="form_field">
 			<div id="form-main">
 				<div id="form-div">
-					<form class="form" id="form1" method="post" action="/contactus/sent.php">
+					<form method="post" action="sent.php">
 					
 						<p class="name">
 						<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" name="name" placeholder="Name" id="name" />
@@ -50,8 +50,8 @@
 						</p>
 
 						<div class="submit">
-						<input type="submit" value="Send" id="button-blue"/>
-						<div class="ease"></div>
+							<input type="submit" value="Send">
+							<div class="ease"></div>
 						</div>
 					</form>
 				</div>
