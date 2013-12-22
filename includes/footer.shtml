@@ -1,52 +1,63 @@
 
-    <footer id="footer">
-        <div class="container">
-            <article id="footer_about" class="footer_info">
-                <h4>wedding information</h4>
+<div class="horizontal_rule"></div>
+
+<div class="main">
+    <footer>
+        <section class="main_footer">
+
+            <article>
+                <h1>WEDDING INFORMATION</h1>
                 <p>The wedding will be located at Eagle Quest golf course in Surrey, British Columbia. The Ceremony will start at 3:00PM, followed by the Reception at 5:00PM. Directions to the golf course will be located on the Venue page.
                 </p>
             </article>
 
-            <nav id="footer_explore" class="footer_info">
-                <h4>Navigate</h4>
-                <ol>
-                    <li><a href="index.shtml">Home</a></li>
-                    <li><a href="venue.shtml">Venue</a></li>
-                    <li><a href="contactus.shtml">Contact Us</a></li>
-                    <li><a href="accommodations.shtml">Accommodations</a></li>
-                </ol>
-            </nav>
-
-            <article id="footer_contact" class="footer_info">
-                <h4>Contact Us</h4>
-                <p><span class="bold_text"></span>
-                    Unit 209<br />
-                    20062 Fraser Hwy.<br />
-                    British Columbia <br />
-                    Canada<br />
-                    V3A 0E6<br />
-                    Phone: 1-(780) 722-6523<br />
-                </p>
+            <article>
+                <nav class="footer_nav">
+                    <h1>NAVIGATE</h1>
+                    <ul>
+                        <li><a href="index.shtml">Home</a></li>
+                        <li><a href="venue.shtml">Venue</a></li>
+                        <li><a href="contactus.shtml">Contact Us</a></li>
+                        <li><a href="accommodations.shtml">Accommodations</a></li>
+                    </ul>
+                </nav>
             </article>
 
-            <nav id="footer_connect" class="footer_info">
-                <h4>follow us</h4>
+            <article>
+                <h1>CONTACT US</h1>
                 <ul>
-                    <li>
-                        <figure>
-                            <a href="https://www.facebook.com/alexander.tavano" id="facebook" title="Facebook"></a>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <a href="http://www.pinterest.com/baileywhitcher/wedding-ideas/" id="pinterest" title="Pinterest"></a>
-                        </figure>
-                    </li>
+                    <li>Unit 209</li>
+                    <li>20062 Fraser Hwy.</li>
+                    <li>British Columbia </li>
+                    <li>Canada</li>
+                    <li>V3A 0E6</li>
+                    <li>Phone: 1-(780) 722-6523</li>
                 </ul>
-            </nav>
-        </div>
+            </article>
+            
+            <article>
+                <nav class="social_media">
+                    <h1>FOLLOW US</h1>
+                    <ul>
+                        <li>
+                            <figure>
+                                <a href="https://www.facebook.com/alexander.tavano" id="facebook" title="Facebook"><img src="/images/facebook_icon.png" alt="Facebook"></a>
+
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="http://www.pinterest.com/baileywhitcher/wedding-ideas/" id="pinterest" title="Pinterest"><img src="/images/pinterest_icon.png" alt="Pinterest"></a>
+                            </figure>
+                        </li>
+                    </ul>
+                </nav>
+            </article>
+        </section>
         <!-- Close .container -->
     </footer>
+</div>
+
 
     <script type="text/javascript" src="/js/jquery-1.9.0.min.js"></script>
     <script type="text/javascript" src="/js/jquery.nivo.slider.js"></script>
@@ -55,6 +66,9 @@
             $('#slider').nivoSlider();
         });
     </script>
+
+</div>
+
 </body>
 </html>
 
