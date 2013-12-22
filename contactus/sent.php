@@ -99,7 +99,7 @@
 		</article>
 
 		<article class="form_field">
-			<p>Your email has been sent</p>
+			<h1>Your email has been sent</h1>
 		</article>
 	</section>
 </div>
