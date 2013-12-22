@@ -33,43 +33,10 @@
 		</article>
 
 		<article class="form_field">
-			<div id="form-main">
-				<div id="form-div">
-					<form method="post" action="sent.php">
-					
-						<p class="name">
-						<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" name="name" placeholder="Name" id="name" />
-						</p>
-
-						<p class="email">
-						<input name="email" type="text" class="validate[required,custom[email]] feedback-input" name="email" id="email" placeholder="Email" />
-						</p>
-
-						<p class="text">
-						<textarea name="text" class="validate[required,length[6,300]] feedback-input" name="comment" id="comment" placeholder="Comment"></textarea>
-						</p>
-
-						<div class="submit">
-							<input type="submit" value="Send">
-							<div class="ease"></div>
-						</div>
-					</form>
-				</div>
-				<!-- end form-div -->
-			</div>
+			<p>Your email has been sent</p>
 		</article>
 	</section>
-</div><!--
-			
-		<div id="mid_content">
-			
-			<div class="container">
-				<div class="mid_content_info">
-					<h1>Your Email Has Been Sent</h1>	
-				</div>
-			</div>
-				
-		</div> -->
+</div>
 		
 	
 <!--#include virtual="/includes/footer.shtml"-->
