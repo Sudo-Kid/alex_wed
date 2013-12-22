@@ -24,7 +24,7 @@
 		<article class="form_field">
 			<div id="form-main">
 				<div id="form-div">
-					<form class="form" id="form1" method="post" action="/contactus/index.php">
+					<form class="form" id="form1" method="post" action="/contactus/sent.php">
 					
 						<p class="name">
 						<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" name="name" placeholder="Name" id="name" />
