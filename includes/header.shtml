@@ -52,8 +52,8 @@
                     <li class="first_list"><a href="/accommodations/" class="current_page">Accommodations</a></li>
                     <li class="first_list"><a href="/contactus/">contact us</a></li>
                 <!--#elif expr='"$DOCUMENT_URI" = "/contactus/index.shtml"' -->
-                    <li class="first_list"><a href="/"Home</a></li>
-                    <li class="first_list"><a href="/venue/"Venue</a></li>
+                    <li class="first_list"><a href="/">Home</a></li>
+                    <li class="first_list"><a href="/venue/">Venue</a></li>
                     <li class="first_list"><a href="/accommodations/">Accommodations</a></li>
                     <li class="first_list"><a href="/contactus/" class="current_page">contact us</a></li>
 <!--#endif -->
