@@ -30,31 +30,40 @@
 			<address>
 		</article>
 
+		
+
 		<article class="form_field">
-			<div id="form-main">
-				<div id="form-div">
-					<form class="form" id="form1" method="post" action="/contactus/index.php">
-					
-						<p class="name">
-						<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" name="name" placeholder="Name" id="name" />
-						</p>
+			<?php
 
-						<p class="email">
-						<input name="email" type="text" class="validate[required,custom[email]] feedback-input" name="email" id="email" placeholder="Email" />
-						</p>
+				if(isset($name)) {
+					echo '<p>Your email has been sent';
+				} else {
+					echo '<div id="form-main">
+							<div id="form-div">
+								<form class="form" id="form1" method="post" action="/contactus/index.php">
+								
+									<p class="name">
+									<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" name="name" placeholder="Name" id="name" />
+									</p>
 
-						<p class="text">
-						<textarea name="text" class="validate[required,length[6,300]] feedback-input" name="comment" id="comment" placeholder="Comment"></textarea>
-						</p>
+									<p class="email">
+									<input name="email" type="text" class="validate[required,custom[email]] feedback-input" name="email" id="email" placeholder="Email" />
+									</p>
 
-						<div class="submit">
-						<input type="submit" value="Send" id="button-blue"/>
-						<div class="ease"></div>
-						</div>
-					</form>
-				</div>
-				<!-- end form-div -->
-			</div>
+									<p class="text">
+									<textarea name="text" class="validate[required,length[6,300]] feedback-input" name="comment" id="comment" placeholder="Comment"></textarea>
+									</p>
+
+									<div class="submit">
+										<input type="submit" value="Send" id="button-blue"/>
+										<div class="ease"></div>
+									</div>
+								</form>
+							</div>
+							<!-- end form-div -->
+						</div>';
+				}
+			?>
 		</article>
 	</section>
 </div>
