@@ -99,10 +99,41 @@
 		</article>
 
 		<article class="form_field">
-			<h1>Your email has been sent</h1>
+			<header>
+				<h1>Your email has been sent</h1>
+			</header>
+				<?php
+				echo '<table>
+						<tr>
+							<th>Name</th>
+							<td>' . $name . '</td>
+						</tr>
+						<tr>
+							<th>Email</th>
+							<td>' . $email . '</td>
+						</tr>
+						<tr>
+							<th>Comment</th>
+							<td>' . $comment . '</td>
+						</tr>
+					</table>';
+				?>
 		</article>
 	</section>
 </div>
+
+<!--
+<?php
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $comment = $_POST['comment'];
+
+        $to = 'alex@frostnova.ca';
+        $subject = 'Insert Subject here';
+        $msg = "From: " . $name . "</br>" . $comment;
+
+        mail($to, $subject, $msg, 'From: ' . $email);
+?> -->
 			
 
 
