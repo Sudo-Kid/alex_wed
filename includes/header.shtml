@@ -14,7 +14,7 @@
         <title>Contact Us</title>
     <!--#endif -->
 
-    <!--[if lt IE]>
+    <!--[if lt IE9]>
         <script src="/js/html5shiv.js"></script>
     <![endif]-->
     
