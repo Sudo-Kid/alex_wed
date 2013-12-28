@@ -5,7 +5,7 @@
     <meta name="author" content="Alex Tavano">
     
     <!--#if expr='"$DOCUMENT_URI" = "index.shtml"' -->
-    <title>Tavano Wedding</title>
+        <title>Tavano Wedding</title>
     <!--#elif expr='"$DOCUMENT_URI" = "/venue/index.shtml"' -->
         <title>Venue</title>
     <!--#elif expr='"$DOCUMENT_URI" = "/accommodations/index.shtml"' -->
@@ -13,6 +13,10 @@
     <!--#elif expr='"$DOCUMENT_URI" = "/contactus/index.shtml"' -->
         <title>Contact Us</title>
     <!--#endif -->
+
+    <!--[if lt IE9]>
+        <script src="/js/html5shiv.js"></script>
+    <![endif]-->
     
     <link rel="icon" type="image/ico" href="favicon.ico" />
 
