@@ -60,16 +60,13 @@ a:active {
 **********************************/
 
 #main_menu {
-	text-align: left; 
+	text-align: center; 
 	color: #4F2E4F;
 	font-size: 1em;
 	font-weight: bold;
 }
 
-#main_meunu ul {
-    padding: -50px;
-    list-style-type: none;
-}
+#main_meunu ul {}
 
 #main_menu li {
 	display: inline-block;
