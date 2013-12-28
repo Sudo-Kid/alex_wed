@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 @import url("desktop.css");
 /*
 @import url("tablet.css") (min-width: 800px) and (max-width: 937px);
 @import url("small_tablet.css") (min-width: 600px) (max-width: 799px);
-@import url("mobile.css") (max-width: 599px);
 */
-=======
-@import url("desktop.css") (min-width: 931px);
-@import url("tablet.css") (min-width: 800px) and (max-width: 937px);
-@import url("small_tablet_portrait") (min-width: 631px) and (max-width: 799px);
-@import url("small_tablet.css") (min-width: 601px) and (max-width: 630px);
-@import url("mobile.css") (max-width: 600px);
->>>>>>> development
+@import url("mobile.css") (max-width: 599px);
