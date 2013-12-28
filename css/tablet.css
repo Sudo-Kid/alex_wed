@@ -441,6 +441,10 @@ input:focus, textarea:focus {
   background-color:white;
 }
 
+img {
+    width: 100%;
+}
+
 /**********************************
 		End Form Field
 **********************************/

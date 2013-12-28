@@ -55,21 +55,22 @@ a:active {
     float: left;
 }
 
+img {
+    width: 100%;
+}
+
 /**********************************
 		Nav Bar
 **********************************/
 
 #main_menu {
-	text-align: left; 
+	text-align: center; 
 	color: #4F2E4F;
 	font-size: 1em;
 	font-weight: bold;
 }
 
-#main_meunu ul {
-    padding: -50px;
-    list-style-type: none;
-}
+#main_meunu ul {}
 
 #main_menu li {
 	display: inline-block;
@@ -204,12 +205,15 @@ a:active {
 /**********************************
 		Main Footer Bar
 **********************************/
+.main_footer {
+    padding-top: 25px;
+}
 
 .main_footer>article {
-	width: 19%;
-	float: left;
+	width: 90%;
 	text-align: left;
 	margin: 3%;
+    padding-top: 10px;
 }
 
 .main_footer h1 {
