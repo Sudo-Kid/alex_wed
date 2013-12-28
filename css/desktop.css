@@ -1,50 +1,43 @@
 body {
-	background-color: #816687;
-	color: #47404B;
-	font-size: 13px;
+    background-color: #816687;
+    color: #47404B;
+    font-size: 13px;
 }
 
 header {
 
 }
 
-img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    min-width: 100%;
-}
-
 a {
-	text-decoration: none;
-	color: #47404B;
+    text-decoration: none;
+    color: #47404B;
 }
 
 a:visited {
-	color: #47404B;
+    color: #47404B;
 }
 
 a:hover {
-	color: #C0C0C0;
+    color: #C0C0C0;
 }
 
 a:active {
-	color: #C0C0C0;
+    color: #C0C0C0;
 }
 
 .main {
-	max-width: 970px;
-	margin: 0 auto;
-	padding: 0;
-	width: 80%;
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
 }
 
 .mid_color {
-	background-color: #4F2F4F;
-	width: 100%;
-	margin-right: 0 auto;
-	right: 0;
-	border-top: 2px solid #B4B1B4;
+    background-color: #4F2F4F;
+    width: 100%;
+    margin-right: 0 auto;
+    right: 0;
+    border-top: 2px solid #B4B1B4;
 }
 
 .horizontal_rule {
@@ -56,39 +49,39 @@ a:active {
 }
 
 /**********************************
-		Nav Bar
+        Nav Bar
 **********************************/
 
 #main_menu {
-	text-align: right; 
-	color: #4F2E4F;
-	font-size: 1em;
-	font-weight: bold;
+    text-align: right; 
+    color: #4F2E4F;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 #main_meunu ul {
-	margin: 50px 0;
+    margin: 50px 0;
 }
 
 #main_menu li {
-	list-style: none;
-	display: inline-block;
-	padding: 30px 10px 30px 0;
+    list-style: none;
+    display: inline-block;
+    padding: 30px 10px 30px 0;
 }
 
 #main_menu a {
-	text-decoration: none;
-	margin: 10px;
-	padding: 3px;
-	color: #4F2F4F;
+    text-decoration: none;
+    margin: 10px;
+    padding: 3px;
+    color: #4F2F4F;
 }
 
 #main_menu a:visited {
-	
+    
 }
 
 #main_menu a:hover {
-	border-top: 5px solid #4F2F4F;
+    border-top: 5px solid #4F2F4F;
 }
 
 #main_menu a:active {
@@ -96,33 +89,33 @@ a:active {
 }
 
 .current_page {
-	border-top: 5px solid #C0C0C0;
+    border-top: 5px solid #C0C0C0;
 }
 
 /**********************************
-		End Nav Bar
+        End Nav Bar
 **********************************/
 
 /**********************************
-		Slider
+        Slider
 **********************************/
 
 .slider-wrapper { 
-	width: 60%; 
-	margin: 100px auto;
+    width: 60%; 
+    margin: 100px auto;
 }
 
 /**********************************
-		End Slider
+        End Slider
 **********************************/
 
 /**********************************
-		Google Maps
+        Google Maps
 **********************************/
 
 .google_map {
-	width: 10%;
-	min-width: 440px;
+    width: 10%;
+    min-width: 440px;
 }
 
 .google_map h1 {
@@ -130,104 +123,104 @@ a:active {
 }
 
 .directions>iframe {
-	padding-left: 20px;
-	padding-bottom: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
 }
 
 /**********************************
-		End Google Maps
+        End Google Maps
 **********************************/
 
 
 /**********************************
-		Main Content Bar
+        Main Content Bar
 **********************************/
 
 .main {
-	max-width: 920px;
+    max-width: 920px;
 }
 
 .main_content {
-	margin: 0 auto;
-	width: 100%;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .main_content_header { 
-	margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .main_content>article {
-	float: left;
-	width: 22%;
-	margin-top: -50px;
-	padding-right: 0px;
-	padding-left: 22px;
+    float: left;
+    width: 22%;
+    margin-top: -50px;
+    padding-right: 0px;
+    padding-left: 22px;
 }
 
 .main_content figure {
-	margin: 0 auto;
-	padding: 0;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .main_content h1 {
-	background-color: #C0C0C0;
-	color: black;
-	font-size: 1.1em;
-	font-weight: bold;
-	margin: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
+    background-color: #C0C0C0;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .main_content header{
-	background-color: #C0C0C0;
+    background-color: #C0C0C0;
 }
 
 .main_content ul {
-	list-style: none;
-	padding: 0 0 50px;
+    list-style: none;
+    padding: 0 0 50px;
 }
 
 .main_content p {
-	padding: 0;
+    padding: 0;
 }
 
 .main_content li, {
-	margin: 0;
+    margin: 0;
 }
 
 /**********************************
-		End Main Content Bar
+        End Main Content Bar
 **********************************/
 
 /**********************************
-		Main Footer Bar
+        Main Footer Bar
 **********************************/
 
 .main_footer>article {
-	width: 19%;
-	float: left;
-	text-align: left;
-	margin: 3%;
+    width: 19%;
+    float: left;
+    text-align: left;
+    margin: 3%;
 }
 
 .main_footer h1 {
-	color: #C0C0C0;
-	font-size: 1em;
-	text-align: left;
+    color: #C0C0C0;
+    font-size: 1em;
+    text-align: left;
     width: 100%;
 }
 
 .main_footer ul {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .main_footer li {
-	padding: 0;
-	margin: 0;
-	list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .social_media figure {
@@ -241,11 +234,11 @@ a:active {
 }
 
 /**********************************
-		End Main Footer Bar
+        End Main Footer Bar
 **********************************/
 
 /**********************************
-		Form Field
+        Form Field
 **********************************/
 
 /* ----- Form Styling ----- */
@@ -442,18 +435,18 @@ input:focus, textarea:focus {
 }
 
 /**********************************
-		End Form Field
+        End Form Field
 **********************************/
 
 
 /**********************************
-	Accomidations Background
+    Accomidations Background
 **********************************/
 
 .clear_background>header{
-	background-color: transparent;
+    background-color: transparent;
 }
 
 /**********************************
-	End Accomidations Background
+    End Accomidations Background
 **********************************/

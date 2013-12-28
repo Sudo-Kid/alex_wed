@@ -1,0 +1,459 @@
+body {
+	background-color: #816687;
+	color: #47404B;
+	font-size: 13px;
+}
+
+header {
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #47404B;
+}
+
+a:visited {
+	color: #47404B;
+}
+
+a:hover {
+	color: #C0C0C0;
+}
+
+a:active {
+	color: #C0C0C0;
+}
+
+.main {
+	max-width: 970px;
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+}
+
+.mid_color {
+	background-color: #4F2F4F;
+	width: 100%;
+	margin-right: 0 auto;
+	right: 0;
+	border-top: 2px solid #B4B1B4;
+}
+
+.horizontal_rule {
+    background-image: url('/images/body_background.png');
+    min-height: 40px;
+    width: 100%;
+    margin-right: 0 auto;
+    float: left;
+}
+
+/**********************************
+		Nav Bar
+**********************************/
+
+#main_menu {
+	text-align: left; 
+	color: #4F2E4F;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#main_meunu ul {
+    padding: -50px;
+    list-style-type: none;
+}
+
+#main_menu li {
+	display: inline-block;
+	padding: 0 0 10px 0;
+    margin: 0;
+}
+
+#main_menu a {
+	text-decoration: none;
+	margin: 5px;
+	padding: 3px;
+	color: #4F2F4F;
+}
+
+#main_menu a:visited {
+	
+}
+
+#main_menu a:hover {
+	border-top: 5px solid #4F2F4F;
+}
+
+#main_menu a:active {
+
+}
+
+.current_page {
+	border-top: 5px solid #C0C0C0;
+}
+
+/**********************************
+		End Nav Bar
+**********************************/
+
+/**********************************
+		Slider
+**********************************/
+
+.slider-wrapper { 
+	width: 100%; 
+	margin: 10px auto;
+}
+
+/**********************************
+		End Slider
+**********************************/
+
+/**********************************
+		Google Maps
+**********************************/
+
+.google_map {
+	width: 10%;
+	min-width: 440px;
+}
+
+.google_map h1 {
+
+}
+
+.directions>iframe {
+	padding-left: 20px;
+	padding-bottom: 50px;
+}
+
+/**********************************
+		End Google Maps
+**********************************/
+
+
+/**********************************
+		Main Content Bar
+**********************************/
+
+.main {
+	max-width: 920px;
+}
+
+.main_content {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.main_content_header { 
+	margin-bottom: 60px;
+}
+
+.main_content>article {
+	width: 90%;
+	margin-top: 0;
+	padding-right: 0px;
+	padding-left: 22px;
+}
+
+.main_content figure {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.main_content h1 {
+	background-color: #C0C0C0;
+	color: black;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.main_content header{
+	background-color: #C0C0C0;
+}
+
+.main_content ul {
+	list-style: none;
+	padding: 0 0 50px;
+}
+
+.main_content p {
+	padding: 0;
+}
+
+.main_content li, {
+	margin: 0;
+}
+
+/**********************************
+		End Main Content Bar
+**********************************/
+
+/**********************************
+		Main Footer Bar
+**********************************/
+
+.main_footer>article {
+	width: 19%;
+	float: left;
+	text-align: left;
+	margin: 3%;
+}
+
+.main_footer h1 {
+	color: #C0C0C0;
+	font-size: 1em;
+	text-align: left;
+    width: 100%;
+}
+
+.main_footer ul {
+	padding: 0;
+	margin: 0;
+}
+
+.main_footer li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.social_media figure {
+    float: left;
+}
+
+.social_media img {
+    width: 90%;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+/**********************************
+		End Main Footer Bar
+**********************************/
+
+/**********************************
+		Form Field
+**********************************/
+
+/* ----- Form Styling ----- */
+#contact_form {
+    width: 480px;
+}
+        
+#contact_form li {
+    font-size: 14px;
+    padding: 2px 0px;
+}
+        
+#contact_form label {
+    display: block;
+    margin: 12px 0;
+}
+         
+#contact_form input {
+    height: 35px;
+}
+
+#contact_form input:focus, #contact_form textarea:focus {
+    border: 1px solid #2aacc8;
+}
+
+#contact_form input, #contact_form textarea {
+    border: 1px solid #b4bac5;
+}
+
+#contact_form input[type="submit"] {
+    background: url(../images/submit_button.png) no-repeat;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    height: 64px;
+    margin-top: 20px;
+    padding: 0 0 6px 30px;
+    width: 160px;
+}
+
+#contact_form input[type="submit"]:hover {
+    color: #fff;
+}
+/* ----- Form Styling ----- */
+
+/* ----- Contact Us Form----- */
+#feedback-page{
+    text-align:center;
+}
+
+#form-main{
+    width:40%;
+    float:right;
+    padding-top:0px;
+}
+
+#form-div {
+    background-color:rgba(72,72,72,0.4);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 600px;
+    float: right;
+    position: inherit;
+    margin: 20px -460px 50px 0;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+    color:#8F5E99;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #fbfbfb;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #4F2F4F;
+    color: #816687;
+    outline: none;
+    padding: 13px 13px 13px 54px;
+}
+
+.focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#name:focus{
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 30px 30px;
+    background-position: 8px 5px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#email{
+    background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#email:focus{
+    background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+    background-size: 30px 30px;
+  background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#comment{
+    background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+textarea {
+    width: 80%;
+    height: 4em;
+    line-height: 1.2em;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    color: #4F2F4F;
+}
+
+#button-blue{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    float:left;
+    text-align: center;
+    width: 100%;
+    border: #4F2F4F solid 4px;
+    cursor:pointer;
+    background-color: #816687;
+    color:white;
+    font-size:24px;
+    padding-top:22px;
+    padding-bottom:22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+    background-color: rgba(0,0,0,0);
+    color: #816687;
+}
+    
+.submit:hover {
+    color: #3498db;
+}
+    
+.ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+/**********************************
+		End Form Field
+**********************************/
+
+
+/**********************************
+	Accomidations Background
+**********************************/
+
+.clear_background>header{
+	background-color: transparent;
+}
+
+/**********************************
+	End Accomidations Background
+**********************************/
