@@ -75,7 +75,7 @@
         $subject = 'Insert Subject here';
         $msg = "From: " . $name . "</br>" . $comment;
 
-        mail($to, $subject, $msg, 'From: ' . $email);
+        mail($to, $subject, $msg, 'From: ' . $email));
 ?>
 
 
@@ -99,7 +99,6 @@
 		</article>
 
 		<article class="form_field">
-<<<<<<< HEAD
 			<p>Your email has been sent</p>
 		</article>
 	</section>
@@ -107,7 +106,6 @@
 		
 	
 <!--#include virtual="/includes/footer.shtml"-->
-=======
 			<header>
 				<h1>Your email has been sent</h1>
 			</header>
@@ -218,4 +216,3 @@
 
 </body>
 </html>
->>>>>>> development
