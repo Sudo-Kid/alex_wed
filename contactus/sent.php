@@ -71,7 +71,7 @@
         $email = $_POST['email'];
         $comment = $_POST['comment'];
 
-        $to = 'speer.emett@gmail.com';
+        $to = 'alex@frostnova.ca';
         $subject = 'Insert Subject here';
         $msg = "From: " . $name . "</br>" . $comment;
 
