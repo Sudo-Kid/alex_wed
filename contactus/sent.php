@@ -75,7 +75,7 @@
         $subject = 'Insert Subject here';
         $msg = "From: " . $name . "</br>" . $comment;
 
-        mail($to, $subject, $msg, 'From: ' . $email));
+        mail($to, $subject, $msg, 'From: ' . $email);
 ?>
 
 
